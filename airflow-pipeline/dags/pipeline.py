@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score,recall_score, precision_score, f1_sco
 def prepare_data():
     import pandas as pd
     print("---- inside prepare_data component ------")
-    df= pd.read_csv("data/my_paypal_creditcard (1).csv")
+    df= pd.read_csv("../data/my_paypal_creditcard (1).csv")
     df=df.dropna()
     df=df.drop_duplicates()
     df.to_csv(f"data/cleaned_df.csv", index=False)

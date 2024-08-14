@@ -1,0 +1,1 @@
+An end to end machine learning project, encompassing data cleaning and preprocessing techniques, model training, experiment tracking using mlflow, pipeline ochestration using Apache Airflow, deployment and monitoring
